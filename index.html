@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,104 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
     <div class="container">
-        <img src="images/tricode.svg" alt="tricode logo">
+        <header>
+            <img src="images/logo.svg" alt="tricode logo" class="logo">
+            <!-- navigation -->
+            <nav>
+                <a href="#" class="hide-desktop">
+                    <img src="images/menu.svg" alt="options menu" class="menu" id="menu">
+                </a>
+                <ul class="show-desktop hide-desktop" id="nav">
+                    <li id="exit" class="exit-btn hide-desktop"><img src="images/close.svg" alt="close menu"></li>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- hero -->
+        <section>
+            <img src="images/hero.svg" alt="illustration" class="hero">
+            <h1>Express and evolve your creativity</h1>
+            <p class="sub-heading">Reshape and customize your tool without limits.</p>
+            <img src="images/scroll.svg" alt="Scroll down hint" class="scroll hide-mobile show-desktop">
+        </section>
     </div>
+
+    <!-- features -->
+    <div class="features-container">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="images/disk.svg" alt="Hard Disk">
+                    <p>Efficient data read write with spectacular fetching speed powered with real-time data indexing
+                        routines</p>
+                </li>
+                <li>
+                    <img src="images/server.svg" alt="Server">
+                    <p>Super fast storage solutions with vertically scaling pricing freedom and versatile plans with
+                        usage based usage tiers</p>
+                </li>
+                <li>
+                    <img src="images/message.svg" alt="Message">
+                    <p>Powerful consumer interaction with function based automated messaging service that manages itself
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- testimonials -->
+    <div class="features-container">
+        <div class="container">
+            <ul>
+                <li>
+                    <figure>
+                        <img src="images/jasmine.svg" alt="Jasmine">
+                        <blockquote>"This thing is awesome! Wow the service is so fast and reliable I can't believe it.
+                            Definitely recommend!"</blockquote>
+                        <figcaption>• Jasmine</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/anne.svg" alt="Anne">
+                        <blockquote>"The service if flawless. Even when problems arise, the support provided is
+                            unmatched. They will never let you down."</blockquote>
+                        <figcaption>• Anne</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- call to action -->
+    <div class="container">
+        <h2>Start using our services today!</h2>
+        <a href="#" class="cta">Sign up!</a>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="container">
+                <a href="#">
+                    <img src="images/logo-white.svg" class="logo" alt="tricode logo">
+                    <p class="address">Mountain View, California<br>San Francisco<br>U.S.A.<br>469283</p>
+                </a>
+                <ul class="footer-links">
+                    <li><a href="#">Terms of Services</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Customer Support</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
