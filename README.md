@@ -1,2 +1,2 @@
 # tricode
-Implementing a website UI design into a functional website using vanilla front-end.
+A simple landing page I made to learn website styling using vanilla CSS.
